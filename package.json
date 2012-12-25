@@ -1,0 +1,21 @@
+{
+  "name": "cmu-finger",
+  "version": "0.0.1",
+  "description": "Look up people in the Carnegie Mellon University directory.",
+  "keywords": ["cmu", "carnegie mellon"],
+  "author": "Chris Lee <chris@chrsl.net>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cleercode/cmu-finger.git"
+  },
+  "main": "./lib/finger.js",
+  "bin": {
+    "cmu-finger": "./bin/finger.js"
+  },
+  "dependencies": {
+    "request": "*"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
